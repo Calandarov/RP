@@ -7,13 +7,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class BasePage {
     protected WebDriver driver;
 
-    public BasePage() {
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
+    public BasePage(WebDriver driver) {
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--remote-allow-origins=*");
 
-//        System.setProperty("webdriver.chrome.driver", "/Users/dmitrijkalandarov/documents/programming/chromedriver/chromedriver");
-        System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver");
-        driver = new ChromeDriver(options);
+        System.setProperty("webdriver.chrome.driver", "/Users/dmitrijkalandarov/documents/programming/chromedriver/chromedriver");
+//        System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver");
+        this.driver = driver;
 
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
@@ -23,7 +23,11 @@ public class BasePage {
         driver.get(url);
     }
 
+    public void getTitle() {
+        driver.getTitle();
+    }
+
     public void closePage() {
-        driver.close();
+        driver.quit();
     }
 }
