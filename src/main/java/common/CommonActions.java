@@ -9,8 +9,8 @@ public class CommonActions {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
 
-//        System.setProperty("webdriver.chrome.driver", "/Users/dmitrijkalandarov/documents/programming/chromedriver/chromedriver");
-        System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/dmitrijkalandarov/documents/programming/chromedriver/chromedriver");
+//        System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver");
         WebDriver driver = new ChromeDriver(options);
 
         driver.manage().window().maximize();
