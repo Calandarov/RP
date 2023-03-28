@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11886d88-f4c2-4f35-ad6e-83d64453ec69" name="Changes" comment="">
+    <list default="true" id="d9c5886d-645c-4c3b-a2cd-d88e83222243" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/home/HomeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/home/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/home/HomeSelectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/CommonActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationFormPage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2NQkLrurcp4063iXvZDmdYSSAnv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,10 +45,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,7 +59,7 @@
       <recent name="C:\Users\dcala\IdeaProjects\RP\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationFormPage.getTitle">
+  <component name="RunManager" selected="JUnit.EnterIntoFormTest.validInput">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="RP" />
@@ -70,11 +73,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnterIntoFormTest.validInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.enterintoform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.enterintoform" />
+      <option name="MAIN_CLASS_NAME" value="tests.enterintoform.EnterIntoFormTest" />
+      <option name="METHOD_NAME" value="validInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationFormPage.getTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value="pages.home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnterIntoFormTest.validInput" />
         <item itemvalue="JUnit.RegistrationFormPage.getTitle" />
         <item itemvalue="Application.Main" />
       </list>
@@ -96,7 +116,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81866220-42d8-4a1b-a196-1a7a79db2f4f" name="Changes" comment="" />
+      <changelist id="d9c5886d-645c-4c3b-a2cd-d88e83222243" name="Changes" comment="" />
       <created>1679603640635</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
