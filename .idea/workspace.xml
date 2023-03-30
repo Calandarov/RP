@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c56843f-e314-43e6-96e8-f341ad1f07ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/driver/DriverOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormSelectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormSelectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/login/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
       <recent name="C:\Users\dcala\IdeaProjects\RP\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PracticeFormTest">
+  <component name="RunManager" selected="JUnit.PracticeFormTest.validInput">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="RP" />
@@ -140,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PracticeFormTest" />
         <item itemvalue="JUnit.PracticeFormTest.validInput" />
+        <item itemvalue="JUnit.PracticeFormTest" />
         <item itemvalue="JUnit.EnterIntoFormTest.validInput" />
         <item itemvalue="JUnit.RegistrationFormPage.getTitle" />
         <item itemvalue="Application.Main" />
