@@ -1,6 +1,6 @@
 package driver;
 
-import constants.Constants;
+import config.Config;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -14,7 +14,7 @@ public class Driver {
         return options;
     }
     public static WebDriver initDriver() {
-        System.setProperty("webdriver.chrome.driver", Constants.MAC_PATH);
+        System.setProperty("webdriver.chrome.driver", Config.MAC_PATH);
         driver = new ChromeDriver(setOptions());
 
         driver.manage().deleteAllCookies();

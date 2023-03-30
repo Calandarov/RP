@@ -2,13 +2,13 @@ package pages.forms;
 
 import org.junit.jupiter.api.Test;
 
-import constants.Constants;
+import config.Config;
 import pages.base.BaseTest;
 
 public class PracticeFormTest extends BaseTest {
     @Test
     public void validInput() {
-        driver.get(Constants.URL);
+        driver.get(Config.URL);
 
         driver.findElement(PracticeFormSelectors.FORM).click();
         driver.findElement(PracticeFormSelectors.TITLE).click();
