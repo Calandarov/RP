@@ -1,9 +1,9 @@
 package pages.forms;
 
-import org.junit.jupiter.api.Test;
-
 import config.Config;
 import pages.base.BaseTest;
+
+import org.junit.jupiter.api.Test;
 
 public class PracticeFormTest extends BaseTest {
     @Test
