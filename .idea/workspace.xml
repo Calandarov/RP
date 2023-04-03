@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba7ad5f-a141-40bf-b890-4f059f4ca0aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/practice/PracticeFormData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/home/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/profile/ProfilePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/practice/PracticeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/home/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormSelectors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/practice/PracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/practice/PracticeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/profile/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/profile/ProfilePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +32,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "dev"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pages.login" />
@@ -73,6 +67,13 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ba7ad5f-a141-40bf-b890-4f059f4ca0aa" name="Changes" comment="" />
+      <created>1680550776536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680550776536</updated>
+    </task>
     <servers />
   </component>
 </project>

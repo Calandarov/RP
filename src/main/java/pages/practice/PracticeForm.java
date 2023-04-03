@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PracticeForm {
-    public WebDriver driver;
+    private WebDriver driver;
 
     public PracticeForm(WebDriver driver) {
         PageFactory.initElements(driver, this);
