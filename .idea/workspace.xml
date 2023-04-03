@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ba7ad5f-a141-40bf-b890-4f059f4ca0aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/practice/PracticeFormData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/home/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/profile/ProfilePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PracticeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/practice/PracticeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/login/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormSelectors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/forms/PracticeFormTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NvQzIrCtd9d4ZAXpiAzzA8LEGi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "dev"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pages.login" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PracticeFormTest.validInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages.forms" />
+      <option name="MAIN_CLASS_NAME" value="pages.forms.PracticeFormTest" />
+      <option name="METHOD_NAME" value="validInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PracticeFormTest.validInput" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

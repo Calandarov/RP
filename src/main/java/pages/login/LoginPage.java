@@ -23,7 +23,7 @@ public class LoginPage {
     @FindBy(xpath = "//div[@class='usermenu-redesign__user-name']")
     private WebElement userName;
 
-    public void openPage(String url) {
+    public void open(String url) {
         driver.get(url);
     }
 

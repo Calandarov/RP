@@ -1,4 +1,4 @@
-package pages;
+package pages.login;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -9,7 +9,7 @@ import pages.login.LoginPageData;
 public class LoginPageTest extends BaseTest {
     @Test
     public void validLogin() throws InterruptedException {
-        loginPage.openPage(LoginPageData.URL);
+        loginPage.open(LoginPageData.URL);
         Thread.sleep(2000);
         loginPage.inputLogin(LoginPageData.LOGIN);
         Thread.sleep(2000);
