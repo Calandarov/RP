@@ -15,7 +15,7 @@ public class Driver {
         return options;
     }
     public static WebDriver initDriver() {
-        System.setProperty("webdriver.chrome.driver", Config.MAC_PATH);
+        System.setProperty("webdriver.chrome.driver", Config.WIN_PATH);
         driver = new ChromeDriver(setOptions());
 
         driver.manage().deleteAllCookies();
