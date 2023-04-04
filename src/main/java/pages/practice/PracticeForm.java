@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PracticeForm {
-    private WebDriver driver;
+    protected WebDriver driver;
 
     public PracticeForm(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -20,6 +20,9 @@ public class PracticeForm {
 
     @FindBy(xpath = "//div[@class='accordion']/div[2]/div[@class='element-list collapse show']")
     private WebElement practiceForm;
+
+    @FindBy(className = "main-header")
+    private WebElement mainHeader;
 
     @FindBy(id = "firstName")
     private WebElement firstNameField;
@@ -53,10 +56,21 @@ public class PracticeForm {
     @FindBy(id = "submit")
     private WebElement submitBtn;
 
+    @FindBy(id = "example-modal-sizes-title-lg")
+    private WebElement modalTitle;
+
     public void open(String url) {
         driver.get(url);
         forms.click();
         practiceForm.click();
+    }
+
+    public boolean atPage() {
+         if(mainHeader.getText().equals(PracticeFormData.EXPECTED_MAIN_HEADER)) {
+             return true;
+        } else {
+             return false;
+        }
     }
 
     public void inputFirstName(String firstName) {
@@ -89,6 +103,10 @@ public class PracticeForm {
 
     public void clickSubmitBtn() {
         submitBtn.click();
+    }
+
+    public String getModalTitle() {
+        return modalTitle.getText();
     }
 
     public void waitElement() {

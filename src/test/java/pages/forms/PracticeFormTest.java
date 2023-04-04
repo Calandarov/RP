@@ -1,6 +1,7 @@
 package pages.forms;
 
 import config.Config;
+import org.junit.jupiter.api.Assertions;
 import pages.base.BaseTest;
 
 import org.junit.jupiter.api.Test;
@@ -10,6 +11,7 @@ public class PracticeFormTest extends BaseTest {
     @Test
     public void validInput() throws InterruptedException {
         practiceForm.open(PracticeFormData.URL);
+        Assertions.assertTrue(practiceForm.atPage());
         practiceForm.inputFirstName(PracticeFormData.FIRST_NAME);
         practiceForm.inputLastName(PracticeFormData.LAST_NAME);
         practiceForm.inputEmail(PracticeFormData.EMAIL);
@@ -18,6 +20,7 @@ public class PracticeFormTest extends BaseTest {
         practiceForm.setHobbiesCheckbox();
         practiceForm.inputAddress(PracticeFormData.ADDRESS);
         practiceForm.clickSubmitBtn();
-        Thread.sleep(5000);
+        Assertions.assertEquals("Thanks for submitting the form", practiceForm.getModalTitle());
+        Thread.sleep(1000);
     }
 }
