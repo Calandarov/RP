@@ -1,15 +1,16 @@
 package pages.base;
 
 import driver.Driver;
-
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.WebDriver;
 import pages.login.LoginPage;
 import pages.practice.PracticeForm;
 import pages.profile.ProfilePage;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.WebDriver;
+
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     protected static WebDriver driver = Driver.initDriver();
@@ -19,7 +20,7 @@ public class BaseTest {
 
     @BeforeAll
     public static void waitDownload() {
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @AfterAll

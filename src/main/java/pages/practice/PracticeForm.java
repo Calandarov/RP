@@ -1,11 +1,13 @@
 package pages.practice;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class PracticeForm {
     protected WebDriver driver;
@@ -33,14 +35,12 @@ public class PracticeForm {
     @FindBy(id = "userEmail")
     private WebElement emailField;
 
-//    @FindBy(id = "gender-radio-1")
     @FindBy(xpath = "//div[@id='genterWrapper']/div[2]/div[1]/label")
     private WebElement genderCheckbox;
 
     @FindBy(id = "userNumber")
     private WebElement userMobileField;
 
-//    @FindBy(id = "hobbies-checkbox-3")
     @FindBy(xpath = "//div[@id='hobbiesWrapper']/div[2]/div[1]/label")
     private WebElement hobbiesCheckbox;
 
@@ -110,6 +110,6 @@ public class PracticeForm {
     }
 
     public void waitElement() {
-
+         = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.alertIsPresent());
     }
 }
