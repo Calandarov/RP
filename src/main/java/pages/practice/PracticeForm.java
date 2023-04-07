@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -59,6 +60,21 @@ public class PracticeForm {
     @FindBy(id = "example-modal-sizes-title-lg")
     private WebElement modalTitle;
 
+    @FindBy(id = "dateOfBirthInput")
+    private WebElement dateOfBirth;
+
+    @FindBy(className = "react-datepicker__year-select")
+    private WebElement yearSelect;
+
+    @FindBy(className = "react-datepicker__month-select")
+    private WebElement monthSelect;
+
+    @FindBy(className = ".react-datepicker__day.react-datepicker__day--017.react-datepicker__day--weekend")
+    private WebElement dayOfBirth;
+
+    @FindBy(className = ".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi.css-1hwfws3")
+    private WebElement subjectField;
+
     public void open(String url) {
         driver.get(url);
         forms.click();
@@ -109,7 +125,22 @@ public class PracticeForm {
         return modalTitle.getText();
     }
 
-    public void waitElement() {
-         = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.alertIsPresent());
+    public void setDateOfBirth() {
+        Select selectMonth = new Select(monthSelect);
+        Select selectYear = new Select(yearSelect);
+
+        dateOfBirth.click();
+        selectYear.selectByValue("1998");
+        selectMonth.selectByValue("9");
+        dateOfBirth.click();
     }
+
+    public void inputSubject(String subject) {
+        subjectField.sendKeys(subject);
+
+    }
+
+//    public void waitElement() {
+//         = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.alertIsPresent());
+//    }
 }

@@ -1,10 +1,8 @@
 package pages.forms;
 
-import config.Config;
 import org.junit.jupiter.api.Assertions;
-import pages.base.BaseTest;
-
 import org.junit.jupiter.api.Test;
+import pages.base.BaseTest;
 import pages.practice.PracticeFormData;
 
 public class PracticeFormTest extends BaseTest {
@@ -20,7 +18,7 @@ public class PracticeFormTest extends BaseTest {
         practiceForm.setHobbiesCheckbox();
         practiceForm.inputAddress(PracticeFormData.ADDRESS);
         practiceForm.clickSubmitBtn();
-        Assertions.assertEquals("Thanks for submitting the form", practiceForm.getModalTitle());
-        Thread.sleep(1000);
+        Assertions.assertEquals(PracticeFormData.EXPECTED_MODAL_TITLE, practiceForm.getModalTitle());
+//        Thread.sleep(1000);
     }
 }

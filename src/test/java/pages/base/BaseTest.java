@@ -1,6 +1,7 @@
 package pages.base;
 
 import driver.Driver;
+import org.junit.jupiter.api.AfterEach;
 import pages.login.LoginPage;
 import pages.practice.PracticeForm;
 import pages.profile.ProfilePage;
