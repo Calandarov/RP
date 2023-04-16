@@ -12,12 +12,6 @@ import java.time.Duration;
 
 public class PracticeForm {
     protected WebDriver driver;
-
-    public PracticeForm(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
-    }
-
     @FindBy(xpath = "//div[@class='category-cards']/div[2]/div/div[@class='avatar mx-auto white']")
     private WebElement forms;
 
@@ -74,6 +68,11 @@ public class PracticeForm {
 
     @FindBy(className = ".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi.css-1hwfws3")
     private WebElement subjectField;
+
+    public PracticeForm(WebDriver driver) {
+        PageFactory.initElements(driver, this);
+        this.driver = driver;
+    }
 
     public void open(String url) {
         driver.get(url);
